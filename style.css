@@ -13,12 +13,12 @@ body, html {
     100% { background-position: 0% 50%; }
 }
 .hero-section {
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    
+
+
     color: white;
-    text-align: center;
+    
 }
 .footer {
     height: 20%;

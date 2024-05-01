@@ -4,7 +4,7 @@ body, html {
 }
 .bg-animation {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+
     animation: gradientBG 15s ease infinite;
 }
 @keyframes gradientBG {
@@ -34,23 +34,23 @@ body, html {
     background-color: #f8f8f8;
     
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+   
   }
   
   .welcome-section h1 {
-    font-size: 36px;
+  
     
     color: #333;
   }
   
   .welcome-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    
+  
     color: #666;
   }
   
   .welcome-section p {
-    font-size: 16px;
+  
     color: #777;
     line-height: 1.5;
   }

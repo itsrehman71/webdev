@@ -1,25 +1,31 @@
-
 body, html {
     height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
 .bg-animation {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-
     animation: gradientBG 15s ease infinite;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
 }
+
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
 .hero-section {
-
-    
-
-
-    color: white;
-    
+    padding: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .footer {
     height: 20%;
     background-color: #333;
@@ -27,41 +33,48 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .welcome-section {
-    
     background-color: #f8f8f8;
-    
+    padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   
-  }
-  
-  .welcome-section h1 {
-  
-    
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.welcome-section h1 {
     color: #333;
-  }
-  
-  .welcome-section h2 {
-    
-  
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.welcome-section h2 {
     color: #666;
-  }
-  
-  .welcome-section p {
-  
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.welcome-section p {
     color: #777;
     line-height: 1.5;
-  }
-  
-  .welcome-section a {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.welcome-section a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .welcome-section a:hover {
-    text-decoration: underline;
-  }
-  
+    transition: color 0.3s ease;
+}
+
+.welcome-section a:hover {
+    color: #0056b3;
+}
